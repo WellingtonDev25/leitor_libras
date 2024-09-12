@@ -16,3 +16,5 @@ curl -L https://github.com/PINTO0309/Tensorflow-bin/releases/download/v2.9.0/ten
 
 pip install tensorflow-2.9.0-cp39-none-linux_aarch64.whl
 
+pip install mediapipe
+
