@@ -53,4 +53,5 @@ while True:
                 continue
 
     cv2.imshow('Imagem',img)
-    cv2.waitKey(1)
+    if cv2.waitKey(1)==27:
+        break
