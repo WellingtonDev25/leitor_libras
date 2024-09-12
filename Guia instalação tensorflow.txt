@@ -1,0 +1,18 @@
+Guia instalação tensorflow Raspberry
+
+https://github.com/PINTO0309/Tensorflow-bin/tree/main/previous_versions
+
+https://github.com/WellingtonDev25/leitor_libras
+
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install --upgrade pip
+
+pip install h5py --only-binary h5py
+
+curl -L https://github.com/PINTO0309/Tensorflow-bin/releases/download/v2.9.0/tensorflow-2.9.0-cp39-none-linux_aarch64.whl -o tensorflow-2.9.0-cp39-none-linux_aarch64.whl
+
+pip install tensorflow-2.9.0-cp39-none-linux_aarch64.whl
+
